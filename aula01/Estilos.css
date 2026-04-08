@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(221, 194, 192);
+    background-color: wheat;
 }
 
 h1{
-    background-color: rgb(191, 21, 21);
+    background-color: wheat;
     color: black;
     margin: 0;
     padding: 10;
@@ -13,8 +13,8 @@ h1{
 }
 
 .conteudo{
-    margin: 10px auto;
-    border: 10px solid rgb(58, 44, 44);
+    margin: 20px auto;
+    border: 20px solid black;
     width: 500px;
     padding: 15px;
     box-shadow: 0 20px 10px;
@@ -28,7 +28,7 @@ h1{
 
 input[type=text]
 {
-    width: 100px;
+    width: 200px;
     padding: 5px;
     box-sizing: border-box;
 }

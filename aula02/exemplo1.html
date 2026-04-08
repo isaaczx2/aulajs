@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Estilo.css">
 </head>
 <body>
-    <h1>Aula 02 - Estudo de Funções no JavaScript</h1>
+    <h1>Exemplo 1 - Calculadora de Dias Vividos</h1>
 
     <div class="conteudo">
+        <form>
 
-        
             <p>
-                O objetivo da aula de hoje será a criação de Funções no JavaScript, e associação delas com formulários.
+                Digite o nome do aluno <br>
+                <input type="text" id="aluno">
             </p>
-        </div>
 
-        <ul>
-            <li><a href="exemplo1.html">Exemplo 1</a></li>
-            <li><a href="exemplo2.html">Exemplo 2</a></li>
-        </ul>
+            <p>
+                Digite a Idade do Aluno <br>
+                <input type="number" id="idade">
+            </p>
 
+            <p>
+                <input type="button" value="Calcular" onclick="calcular()">
+            </p>
+
+            <p id="resultado"></p>
+        </form>
     </div>
 
+    <script src="Exemplo1.js"></script>
+    
 </body>
 </html>

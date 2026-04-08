@@ -1,12 +1,14 @@
 function calcular()
 {
-let numero,quadrado,cubo;
-numero= document.getElementById("numero").value;
+    let numero, quadrado, cubo;
 
-quadrado=Number(numero)*Number(numero);
-cubo=Number(numero)*Number(numero)*Number(numero);
+    numero = document.getElementById("numero").value;
 
-document.getElementById("resultado").innerHTML="<p> o quadrado do numero é "+ quadrado +"e o cubo é " + cubo + "</p>"
+    quadrado = Number(numero) * Number(numero);
+    cubo = Number(numero) * Number(numero) * Number(numero);
 
+    document.getElementById("resultado").innerHTML =
+    "<p>O quadrado do número é " + quadrado +
+    " e o cubo é " + cubo + "</p>"
 
 }

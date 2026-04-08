@@ -1,8 +1,8 @@
-var nome ="isaac";
+var nome ="João";
 
 var idade =16;
 
-var altura = 1.85;
+var altura = 1.65;
 
 var dias = idade * 365;
 
@@ -17,19 +17,3 @@ document.write( idade + "<br>" );
 document.write( altura + "<br>" );
 
 document.write("<p style= 'color : red' >Você já viveu " + dias + " dias</p>" );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
